@@ -1,0 +1,27 @@
+2017-07-26 16:21:24 INFO  ReporterLogs:32 - New driver instantiated
+2017-07-26 16:21:24 INFO  ReporterLogs:36 - Implicit wait applied on the driver for 10 seconds
+2017-07-26 16:21:32 INFO  ReporterLogs:40 - Web application launched
+2017-07-26 16:21:38 INFO  ReporterLogs:48 - Click action performed on My Account link
+2017-07-26 16:21:40 INFO  ReporterLogs:52 - Username entered in the Username text box
+2017-07-26 16:21:41 INFO  ReporterLogs:56 - Password entered in the Password text box
+2017-07-26 16:21:41 INFO  ReporterLogs:60 - Click action performed on Submit button
+2017-07-26 16:21:45 INFO  ReporterLogs:68 - Click action performed on Log out link
+2017-07-26 16:21:46 INFO  ReporterLogs:72 - Browser closed
+2017-07-26 16:28:50 INFO  ReporterLogs:32 - New driver instantiated
+2017-07-26 16:28:50 INFO  ReporterLogs:36 - Implicit wait applied on the driver for 10 seconds
+2017-07-26 16:28:58 INFO  ReporterLogs:40 - Web application launched
+2017-07-26 16:29:00 INFO  ReporterLogs:48 - Click action performed on My Account link
+2017-07-26 16:29:01 INFO  ReporterLogs:52 - Username entered in the Username text box
+2017-07-26 16:29:01 INFO  ReporterLogs:56 - Password entered in the Password text box
+2017-07-26 16:29:02 INFO  ReporterLogs:60 - Click action performed on Submit button
+2017-07-26 16:29:05 INFO  ReporterLogs:68 - Click action performed on Log out link
+2017-07-26 16:29:07 INFO  ReporterLogs:72 - Browser closed
+2017-11-22 12:34:04 INFO  ReporterLogs:32 - New driver instantiated
+2017-11-22 12:35:04 INFO  ReporterLogs:32 - New driver instantiated
+2017-11-22 12:37:06 INFO  ReporterLogs:32 - New driver instantiated
+2017-11-22 12:37:06 INFO  ReporterLogs:36 - Implicit wait applied on the driver for 10 seconds
+2017-11-22 12:37:30 INFO  ReporterLogs:40 - Web application launched
+2017-11-22 12:37:39 INFO  ReporterLogs:48 - Click action performed on My Account link
+2017-11-22 12:37:39 INFO  ReporterLogs:52 - Username entered in the Username text box
+2017-11-22 12:37:39 INFO  ReporterLogs:56 - Password entered in the Password text box
+2017-11-22 12:37:40 INFO  ReporterLogs:60 - Click action performed on Submit button

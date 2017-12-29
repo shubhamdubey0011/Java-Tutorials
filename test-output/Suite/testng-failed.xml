@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <parameter name="sUsername" value="valtechtest"/>
+  <parameter name="sPassword" value="valtech@1"/>
+  <test name="ToolsQA(failed)">
+    <parameter name="sUsername" value="valtechtest"/>
+    <parameter name="sPassword" value="valtech@1"/>
+    <classes>
+      <class name="net.valtech.testNG.TestngParameters">
+        <methods>
+          <include name="test" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- net.valtech.testNG.TestngParameters -->
+    </classes>
+  </test> <!-- ToolsQA(failed) -->
+</suite> <!-- Failed suite [Suite] -->

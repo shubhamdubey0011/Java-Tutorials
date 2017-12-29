@@ -1,0 +1,19 @@
+<suite name="Suite-Listeners" parallel="none">
+
+	<listeners>
+
+		<listener class-name="net.valtech.testNG.Listener"></listener>
+
+	</listeners>
+
+	<test name="Batch-Listeners">
+
+		<classes>
+
+			<class name="net.valtech.testNG.TestListener" />
+
+		</classes>
+
+	</test>
+
+</suite>

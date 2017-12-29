@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<!-- parellel=none for no parallel execution  -->
+<!-- <suite name="Suite" parallel="none"> -->
+    
+    <!-- parallel ="test" for parellel execution -->
+    
+    <suite name="Suite" parallel="test"> 
+
+	<test name="FirefoxTest">
+
+		<parameter name="browser" value="firefox" />
+
+		<classes>
+
+			<class name="net.valtech.testNG.MultiBrowser" />
+
+		</classes>
+
+
+	</test>
+
+
+
+
+	<test name="IETest">
+
+		<parameter name="browser" value="ie" />
+
+		<classes>
+
+			<class name="net.valtech.testNG.MultiBrowser" />
+
+		</classes>
+
+	</test>
+
+
+
+	<test name="Chrome">
+
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+
+			<class name="net.valtech.testNG.MultiBrowser" />
+
+		</classes>
+
+	</test>
+
+</suite>

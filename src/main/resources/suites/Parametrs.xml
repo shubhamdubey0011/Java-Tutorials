@@ -1,0 +1,27 @@
+
+<suite name="Suite">
+
+
+	<listeners>
+
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+
+	</listeners>
+
+	<test name="ToolsQA">
+
+		<parameter name="sUsername" value="valtechtest" />
+
+		<parameter name="sPassword" value="valtech@1" />
+
+		<classes>
+
+			<class name="net.valtech.testNG.TestngParameters" />
+
+		</classes>
+
+	</test>
+
+</suite>
