@@ -34,5 +34,12 @@ public static void main(String[] args)
 	I rv1 = new I();
 	rv1.test1();
 	rv1.test2();
+	
+	
+	H h1=new J();
+	h1.test1();
+	
+	I i1=(I) new H();
+	i1.test
 }
 }

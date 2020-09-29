@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
-  <parameter name="sUsername" value="valtechtest"/>
-  <parameter name="sPassword" value="valtech@1"/>
-  <test name="ToolsQA(failed)">
-    <parameter name="sUsername" value="valtechtest"/>
-    <parameter name="sPassword" value="valtech@1"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="none">
+  <listeners>
+    <listener class-name="net.valtech.testNG.ListnerDemo"/>
+  </listeners>
+  <test name="Test(failed)" parallel="none">
     <classes>
-      <class name="net.valtech.testNG.TestngParameters">
+      <class name="net.valtech.testNG.Sampletest">
         <methods>
-          <include name="test" invocation-numbers="0"/>
+          <include name="test2"/>
+          <include name="AfterMethod"/>
+          <include name="test3"/>
+          <include name="BeforeMethod"/>
         </methods>
-      </class> <!-- net.valtech.testNG.TestngParameters -->
+      </class> <!-- net.valtech.testNG.Sampletest -->
     </classes>
-  </test> <!-- ToolsQA(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

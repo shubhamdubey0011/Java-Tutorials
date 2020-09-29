@@ -5,7 +5,7 @@ class Superclass
     void Demo()
     {
     	
-    	System.out.println("from Demo() of class K");
+    	System.out.println("from Demo() of class superClass");
     	
     }
 }
@@ -24,7 +24,7 @@ class M extends Superclass
     void Demo()
     {
     	
-    	System.out.println("from Demo1() of class L");
+    	System.out.println("from Demo1() of class M");
     	
     }
 }
@@ -43,6 +43,7 @@ public class Multiple_Inheritance
      	rv2.Demo();
      	//rv2.Demo1();
      	
+ 
      	
      	
 }

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="net.valtech.DatabaseTesting.ConnectMySql">
+      <class name="net.valtech.testNG.Asserts">
         <methods>
-          <include name="testDB"/>
+          <include name="f"/>
         </methods>
-      </class> <!-- net.valtech.DatabaseTesting.ConnectMySql -->
+      </class> <!-- net.valtech.testNG.Asserts -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

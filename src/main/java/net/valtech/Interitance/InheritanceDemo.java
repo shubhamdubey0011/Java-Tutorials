@@ -3,7 +3,7 @@ class Parent
 {
 	public void one()
 	{
-		System.out.println("from class one");
+		System.out.println("from Parent class method one");
 	}
 }
 class Child extends Parent
@@ -11,7 +11,7 @@ class Child extends Parent
 
 	public void two()
 	{
-		System.out.println("from class Two");
+		System.out.println("from child class method Two");
 	}
 	
 }
@@ -27,15 +27,22 @@ public class InheritanceDemo
 	 
 	Child c=new Child();
 	c.one();//from class Two
-	c.one();//from class Two
+	c.two();//from class Two
 
 	
 	
 	Parent c2=new Child();
 	c2.one();//from class Two
+	//c2.two();
 
 	
-   //Child c2=new Parent();
+	//Child cannot store parent object 
+	//Child c4= new Parent();
+	
+	
+   Child c3=(Child) new Parent();
+   c3.one();
+   c3.two();
 	
 	
 	 

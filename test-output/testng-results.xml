@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="518" started-at="2017-12-26T07:41:41Z" finished-at="2017-12-26T07:41:41Z">
+  <suite name="Independent test Suite" duration-ms="28" started-at="2020-05-20T07:56:08Z" finished-at="2020-05-20T07:56:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="518" started-at="2017-12-26T07:41:41Z" finished-at="2017-12-26T07:41:41Z">
-      <class name="net.valtech.DatabaseTesting.ConnectMySql">
-        <test-method status="PASS" signature="testDB()[pri:0, instance:net.valtech.DatabaseTesting.ConnectMySql@31ef45e3]" name="testDB" duration-ms="495" started-at="2017-12-26T13:11:41Z" finished-at="2017-12-26T13:11:41Z">
+    <test name="Independent test" duration-ms="28" started-at="2020-05-20T07:56:08Z" finished-at="2020-05-20T07:56:08Z">
+      <class name="DemoTestNG.ParallelExecutionINdependentTest">
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:DemoTestNG.ParallelExecutionINdependentTest@143640d5]" name="testMethod" duration-ms="9" started-at="2020-05-20T13:26:08Z" finished-at="2020-05-20T13:26:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDB -->
-      </class> <!-- net.valtech.DatabaseTesting.ConnectMySql -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:DemoTestNG.ParallelExecutionINdependentTest@143640d5]" name="testMethod" duration-ms="9" started-at="2020-05-20T13:26:08Z" finished-at="2020-05-20T13:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:DemoTestNG.ParallelExecutionINdependentTest@143640d5]" name="testMethod" duration-ms="9" started-at="2020-05-20T13:26:08Z" finished-at="2020-05-20T13:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:DemoTestNG.ParallelExecutionINdependentTest@143640d5]" name="testMethod" duration-ms="2" started-at="2020-05-20T13:26:08Z" finished-at="2020-05-20T13:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:DemoTestNG.ParallelExecutionINdependentTest@143640d5]" name="testMethod" duration-ms="3" started-at="2020-05-20T13:26:08Z" finished-at="2020-05-20T13:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+        <test-method status="PASS" signature="testMethod()[pri:0, instance:DemoTestNG.ParallelExecutionINdependentTest@143640d5]" name="testMethod" duration-ms="4" started-at="2020-05-20T13:26:08Z" finished-at="2020-05-20T13:26:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod -->
+      </class> <!-- DemoTestNG.ParallelExecutionINdependentTest -->
+    </test> <!-- Independent test -->
+  </suite> <!-- Independent test Suite -->
 </testng-results>
